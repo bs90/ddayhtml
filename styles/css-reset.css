@@ -24,6 +24,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none; 
 }
 ol, ul {
   list-style: none;
@@ -42,5 +46,5 @@ table {
 }
 @font-face {
   font-family: DDAYEFONT;
-  src: url("../fonts/iCielQiber.otf");
+  src: url("../fonts/iCielAltus.otf");
 }
