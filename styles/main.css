@@ -1,0 +1,43 @@
+body {
+  background: url("../images/green-maze.gif"); 
+}
+
+.container {
+  width: 100%;
+  min-width: 800px;
+}
+
+.right-container {
+  width: 300px;
+  float:right;
+}
+
+.right-container-main {
+  height: 500px;
+  background-color: red;
+  opacity: 0.8;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 150px 0 150px;
+  border-color: red transparent   transparent transparent;
+  opacity: 0.8;
+}
+
+.right-container-main .name {
+  width: 280px;
+  padding: 10px;
+  font-family: DDAYEFONT;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.right-container-main .line {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
