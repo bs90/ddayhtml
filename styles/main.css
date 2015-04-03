@@ -78,13 +78,29 @@ body {
   margin: 10px;
   font-family: DDAYEFONT;
   color: White;
-  background-color: Red;
   font-size: 35px;
   text-align: center;
 }
 
+.right-container-main .task-detail .unlockable {
+  background-color: Green;
+}
+
+.right-container-main .task-detail .locked {
+  background-color: Black;
+}
+
+.right-container-main .task-detail .unlocked {
+  background-color: Red;
+}
+
+.right-container-main .task-detail .solved {
+  background-color: Red;
+}
+
 .right-container-main .task-detail .button {
   cursor: pointer;
+  background-color: Black;
 }
 
 .right-container-main .task-detail .cc {
