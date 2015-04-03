@@ -6,7 +6,7 @@
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link href="styles/main.css" rel="stylesheet" type="text/css" />
   <script src="scripts/jquery-2.1.1.min.js"></script>
-  <script src="scripts/jquery-ui.min.js"></script>
+  <script src="scripts/button-hover.js"></script>
   <script src="scripts/main.js"></script>
   <meta charset="utf-8">
   <title>= THE DECISIONS DAY =</title>
@@ -17,16 +17,17 @@
     <div class="right-container-main">
       <div class="name">| Unstopable |</div>
       <div class="name member-name">kiendinang'</div>
-      <div class="name team-skill">Team skill score: <span class="score">26</span></div>
+      <div class="name team-skill">Score: <span class="score">4500</span> Skill score: <span class="score">26</span></div>
       <div class="line"></div>
       <div class="task-detail">
         <div class="name">Let's dance!</div>
-        <div class="type ctf">c.t.f.</div>
-        <!-- <div class="type game">logic game</div>
+        <div class="type game">Logic game</div>
+        <div class="level"><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /></div>
+        <!-- <div class="type ctf">C.T.F.</div>
         <div class="type cc">code contest</div> -->
         <div class="unlock point">Open point: <span class="score">5</span></div>
-        <div class="done point">Clear point: <span class="score">9</span></div>
-        <div class="done point">Current Status</div>
+        <div class="done point">Clear point: <span class="score">?</span></div>
+        <div class="done point">Status</div>
         <div class="status unlockable">UNLOCKABLE</div>
         <!-- <div class="status locked">LOCKED</div>
         <div class="status unlocked">UNLOCKED</div>
@@ -39,6 +40,51 @@
   </div>  
   <div class="left-container">
     <div class="banner"></div>
+    <table class="tasks-table">
+      <tr>
+        <th width="200px;">C.T.F.</th>
+        <th width="200px;">LOGIC GAME</th>
+        <th width="200px;">CODE CONTEST</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="task ctf clear">1</div>
+          <div class="task ctf unlockable">2</div>
+          <div class="task ctf unlockable">3</div>
+          <div class="task ctf locked">4</div>
+          <div class="task ctf locked">5</div>
+          <div class="task ctf locked">6</div>
+          <div class="task ctf locked">7</div>
+          <div class="task ctf locked">8</div>
+          <div class="task ctf locked">9</div>
+          <div class="task ctf locked">10</div>
+        </td>
+        <td>
+          <div class="task game clear">1</div>
+          <div class="task game clear">2</div>
+          <div class="task game clear">3</div>
+          <div class="task game unlockable">4</div>
+          <div class="task game unlockable">5</div>
+          <div class="task game unlockable">6</div>
+          <div class="task game locked">7</div>
+          <div class="task game locked">8</div>
+          <div class="task game locked">9</div>
+          <div class="task game locked">10</div>
+        </td>
+        <td>
+          <div class="task cc unlockable">1</div>
+          <div class="task cc unlockable">2</div>
+          <div class="task cc unlockable">3</div>
+          <div class="task cc unlockable">4</div>
+          <div class="task cc unlockable">5</div>
+          <div class="task cc locked">6</div>
+          <div class="task cc locked">7</div>
+          <div class="task cc locked">8</div>
+          <div class="task cc locked">9</div>
+          <div class="task cc locked">10</div>
+        </td>
+      </tr>
+    </table>
   </div>
   <div style="clear:both;"></div>
 </div>
