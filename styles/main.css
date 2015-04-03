@@ -1,25 +1,24 @@
 body {
-  background: url("../images/green-maze.gif");
+  
 }
 
 .container {
-  width: 100%;
-  min-width: 800px;
+  background: url("../images/green-maze.gif");
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
 
 .left-container {
   float: right;
-  min-width: 500px;
+  width: 700px;
 }
 
 .left-container .banner {
   width: 100%;
   height: 112px;
   border-bottom: White 3px solid;
-  text-align: left;
-  font-size: 100px;
-  color: white;
-  font-family: DDAYEFONT;
+  background-image: url("../images/banner.png");
 }
 
 .right-container {
@@ -41,10 +40,9 @@ body {
 }
 
 .score {
-  background-color: White;
-  color: red;
+  color: White;
   font-size: 30px;
-  padding: 0 10px 0 10px;
+  text-decoration: underline; 
 }
 
 .right-container-main .name {
