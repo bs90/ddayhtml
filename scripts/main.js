@@ -1,5 +1,6 @@
 $(function(){
   $(".button, .task").button_hover();
+  $(".tasks-table > tbody > tr > td > .unlockable").interval_fade();
   $(".task-detail").hide();
   $(".tasks-table > tbody > tr > td > .ctf").click(function(){
     // From API
