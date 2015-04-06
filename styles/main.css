@@ -55,8 +55,8 @@ body {
 .left-container .locked {
   background-image: url("../images/locked.png");
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: 10px 10px;
+  
   -webkit-border-top-left-radius: 40px;
   -moz-border-top-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -65,8 +65,7 @@ body {
 .left-container .clear {
   background-image: url("../images/clear.png");
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: 10px 10px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
@@ -75,8 +74,7 @@ body {
 .left-container .unlockable {
   background-image: url("../images/locked.png");
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: 10px 10px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
